@@ -1,0 +1,6 @@
+{
+  "name": "Consult",
+  "description": "An animated business consulting website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
