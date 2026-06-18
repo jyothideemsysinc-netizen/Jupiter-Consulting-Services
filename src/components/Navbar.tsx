@@ -58,7 +58,7 @@ export function Navbar() {
             {/* Submenu Dropdown */}
             <div className="absolute top-full left-0 w-72 pt-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
               <div className="bg-white shadow-xl border-t-2 border-brand-orange flex flex-col">
-                <a href="#" className="px-6 py-3.5 text-[#2f3c4e] hover:bg-gray-50 hover:text-brand-orange transition-colors border-b border-gray-100 text-sm font-medium">Current openings</a>
+                <a href="https://www.dice.com/jobs/detail/s?caller=searchagain&q=jupiter+consulting+services&x=all&p=" target="_blank" rel="noopener noreferrer" className="px-6 py-3.5 text-[#2f3c4e] hover:bg-gray-50 hover:text-brand-orange transition-colors border-b border-gray-100 text-sm font-medium">Current openings</a>
                 <Link to="/careers/hot-requirements" className="px-6 py-3.5 text-[#2f3c4e] hover:bg-gray-50 hover:text-brand-orange transition-colors border-b border-gray-100 text-sm font-medium">Hot requirements</Link>
                 <Link to="/careers/security" className="px-6 py-3.5 text-[#2f3c4e] hover:bg-gray-50 hover:text-brand-orange transition-colors border-b border-gray-100 text-sm font-medium">Jupiter job security</Link>
                 <Link to="/careers/cross-platform-training" className="px-6 py-3.5 text-[#2f3c4e] hover:bg-gray-50 hover:text-brand-orange transition-colors border-b border-gray-100 text-sm font-medium">Cross platform training</Link>
@@ -120,7 +120,7 @@ export function Navbar() {
           <div className="border-b border-gray-100 flex flex-col">
             <a href="#" className="py-3 flex justify-between">CAREERS <ChevronDown className="w-4 h-4" /></a>
             <div className="flex flex-col pl-4 pb-3 space-y-3 font-medium text-sm text-gray-600">
-              <a href="#" className="hover:text-brand-orange">Current openings</a>
+              <a href="https://www.dice.com/jobs/detail/s?caller=searchagain&q=jupiter+consulting+services&x=all&p=" target="_blank" rel="noopener noreferrer" className="hover:text-brand-orange" onClick={() => setIsOpen(false)}>Current openings</a>
               <Link to="/careers/hot-requirements" className="hover:text-brand-orange" onClick={() => setIsOpen(false)}>Hot requirements</Link>
               <Link to="/careers/security" className="hover:text-brand-orange" onClick={() => setIsOpen(false)}>Jupiter job security</Link>
               <Link to="/careers/cross-platform-training" className="hover:text-brand-orange" onClick={() => setIsOpen(false)}>Cross platform training</Link>
